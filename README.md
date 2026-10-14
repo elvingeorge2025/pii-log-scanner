@@ -40,11 +40,13 @@ Test data is generated or made up. IBANs are built by the test helper, which com
 
 The unit tests cover validators, each detector, negative cases (order IDs, timestamps), redaction, and the sample file. Run them with `python -m unittest -v`.
 
-These tests show that the rules work on the cases I wrote. They do not measure real-world accuracy. To measure it, build a synthetic corpus of a few hundred lines with known labels, then count true positives, false positives and misses per kind. Record the misses here.
+The unit tests show that the rules work on the cases I wrote. They do not measure real-world accuracy, which is what the labelled corpus below is for.
 
 ## Results
 
-Measured on `corpus/labelled_corpus.jsonl`: 275 synthetic lines, written and labelled before the scanner was run. The corpus includes 120 lines with no personal data and 5 deliberate hard cases. Regenerate it with `python3 corpus/generate_corpus.py` and check it with `python3 corpus/evaluate.py`.
+Measured on `corpus/labelled_corpus.jsonl`: 275 synthetic lines. The labels were written before testing, but the phone rule was adjusted after the first run on this same set, so the phone results are optimistic. Regenerate the corpus with `python3 corpus/generate_corpus.py` and check it with `python3 corpus/evaluate.py`.
+
+The corpus includes 120 lines with no personal data and 5 deliberate hard cases.
 
 | Kind | True positives | False positives | Misses | Precision | Recall |
 |---|---|---|---|---|---|
@@ -52,8 +54,10 @@ Measured on `corpus/labelled_corpus.jsonl`: 275 synthetic lines, written and lab
 | Card number | 44 | 0 | 1 | 100% | 98% |
 | Email address | 37 | 0 | 1 | 100% | 97% |
 | PPSN | 38 | 16 | 2 | 70% | 95% |
-| Phone number | 27 | 0 | 0 | 100% | 100% |
+| Phone number | 27 | 0 | 0 | 100%* | 100%* |
 | **All** | **187** | **16** | **5** | **92%** | **97%** |
+
+\* Optimistic, for the reason given above.
 
 254 of 275 lines were classified exactly right (92%).
 
@@ -65,6 +69,7 @@ The corpus was written alongside the scanner and contains deliberate hard cases,
 - **Free text is not detected.** Names, addresses and other personal data without a recognisable format are not found. A name such as "Jane Doe" in a log line will not be flagged.
 - **Phone trade-off.** National numbers written without separators (for example `0851234567`) are not detected. Without this rule, batch and reference numbers starting with `0` were flagged as phone numbers: 13 false alarms in the test set. Dropping the rule trades these misses for false alarms, so real logs may need a different balance.
 - **Card detection can false-positive.** About 1 in 10 random digit strings of the right length pass Luhn. The check is one filter, not proof.
+- **Missed formats.** Values written with dots, lowercase IBANs, emails written out in words, and PPSNs with a dash or space are not detected, as the corpus shows.
 - **Encoding.** Files are read as UTF-8 with replacement characters for invalid bytes. Binary logs are not supported.
 - **Split values.** A value broken across two lines is not detected.
 
@@ -76,4 +81,4 @@ The corpus was written alongside the scanner and contains deliberate hard cases,
 
 ## Licence
 
-Choose a licence before publishing (MIT is a common choice for small tools).
+MIT. See [LICENSE](LICENSE).
