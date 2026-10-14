@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Output of --redact-dir runs (may contain sensitive-looking content)
+clean/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

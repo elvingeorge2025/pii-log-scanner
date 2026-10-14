@@ -1,0 +1,10 @@
+2026-10-14T09:12:01Z INFO  signup ok user_id=10442 email=jane.doe@example.test
+2026-10-14T09:12:03Z DEBUG payload={"name":"Jane Doe","ppsn":"1234567T"}
+2026-10-14T09:12:04Z WARN  payment declined card=4111 1111 1111 1111 amount=49.99
+2026-10-14T09:12:09Z INFO  refund to iban=GB82WEST12345698765432
+2026-10-14T09:13:17Z INFO  sms sent to +353 85 555 0123
+2026-10-14T09:13:18Z INFO  callback requested by 087 555 0199
+2026-10-14T09:14:00Z INFO  order_ref=1234567890 status=shipped
+2026-10-14T09:14:02Z ERROR parse failed at offset 20261014 retry=3
+2026-10-14T09:15:00Z INFO  verify ppsn=7654321WA ok
+alexa@gmail.in

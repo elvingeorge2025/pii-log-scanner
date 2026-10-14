@@ -1,0 +1,275 @@
+{"line": "2026-10-14T09:00:00Z DEBUG payload={\"v\":\"ftrxck@example.test\"}", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:01Z INFO  notify 4577 4428 7142 2712 and jigbl@example.test", "expected": ["card number", "email address"]}
+{"line": "2026-10-14T09:00:02Z INFO  user contact=5868570H", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:00:03Z INFO  user contact=4348-1367-6065-2425", "expected": ["card number"]}
+{"line": "2026-10-14T09:00:04Z DEBUG payload={\"v\":\"4872 0322 9836 3946\"}", "expected": ["card number"]}
+{"line": "2026-10-14T09:00:05Z INFO  notify +445832950016 and GB93PKPM25961877321077", "expected": ["phone number", "IBAN"]}
+{"line": "2026-10-14T09:00:06Z INFO  user contact=+442661757503", "expected": ["phone number"]}
+{"line": "2026-10-14T09:00:07Z INFO  notify IE13 BWYC 4077 1452 8425 72 and +446451235220", "expected": ["IBAN", "phone number"]}
+{"line": "2026-10-14T09:00:08Z INFO  user contact=4980 2621 9547 8104", "expected": ["card number"]}
+{"line": "2026-10-14T09:00:09Z INFO  sent to 8066078DD ok", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:00:10Z INFO  sent to 4148 0880 6500 7247 ok", "expected": ["card number"]}
+{"line": "2026-10-14T09:00:11Z INFO  notify 1039726R and ehzpotbp@example.test", "expected": ["PPSN", "email address"]}
+{"line": "2026-10-14T09:00:12Z INFO  notify 085 562 1825 and croigrigd@example.org", "expected": ["phone number", "email address"]}
+{"line": "2026-10-14T09:00:13Z INFO  user contact=qocnndjb@example.test", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:14Z INFO  sent to 4876 9608 2691 1156 ok", "expected": ["card number"]}
+{"line": "2026-10-14T09:00:15Z DEBUG payload={\"v\":\"4262-4980-4207-6274\"}", "expected": ["card number"]}
+{"line": "2026-10-14T09:00:16Z INFO  user contact=085 961 0354", "expected": ["phone number"]}
+{"line": "2026-10-14T09:00:17Z INFO  notify GB56FGCU84619898807398 and gucwwf@example.org", "expected": ["IBAN", "email address"]}
+{"line": "2026-10-14T09:00:18Z WARN  request failed, value=4013 8926 3959 1913", "expected": ["card number"]}
+{"line": "2026-10-14T09:00:19Z INFO  notify +353 87 491 8104 and 5869714V", "expected": ["phone number", "PPSN"]}
+{"line": "2026-10-14T09:00:20Z DEBUG payload={\"v\":\"ikkhdkyrx@example.org\"}", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:21Z DEBUG payload={\"v\":\"fupilrn@example.test\"}", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:22Z ERROR parse error near GB16CYGI81096748573316", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:00:23Z INFO  sent to eynbgw@example.org ok", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:24Z INFO  notify 9867585F and GB03 LTVH 7424 7238 0131 24", "expected": ["PPSN", "IBAN"]}
+{"line": "2026-10-14T09:00:25Z WARN  request failed, value=kuyawomy@example.org", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:26Z ERROR parse error near 7562240K", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:00:27Z INFO  sent to 4995 9560 4812 3436 ok", "expected": ["card number"]}
+{"line": "2026-10-14T09:00:28Z DEBUG payload={\"v\":\"8470920UA\"}", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:00:29Z INFO  user contact=4624-1942-3697-7137", "expected": ["card number"]}
+{"line": "2026-10-14T09:00:30Z INFO  notify GB35 YFPV 2636 8750 5606 04 and 4384115UI", "expected": ["IBAN", "PPSN"]}
+{"line": "2026-10-14T09:00:31Z INFO  sent to 8532924O ok", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:00:32Z INFO  user contact=GB33 WEFU 3872 0907 4766 47", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:00:33Z INFO  notify 4635-3953-4327-3792 and IE27ETHP75982337100296", "expected": ["card number", "IBAN"]}
+{"line": "2026-10-14T09:00:34Z INFO  notify mizgwcbm@example.test and IE04DOHZ17672544893667", "expected": ["email address", "IBAN"]}
+{"line": "2026-10-14T09:00:35Z INFO  notify 4611-0045-2277-4699 and IE76 LOQX 8013 7521 6695 40", "expected": ["card number", "IBAN"]}
+{"line": "2026-10-14T09:00:36Z ERROR parse error near GB25 AFRW 5078 5715 4294 89", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:00:37Z INFO  user contact=IE34ISHY85433945965413", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:00:38Z WARN  request failed, value=oylsdzp@example.test", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:39Z ERROR parse error near IE20OCZX41847528925395", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:00:40Z INFO  sent to GB23 YNVH 2594 1535 5431 65 ok", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:00:41Z DEBUG payload={\"v\":\"mxjzuqdzdz@example.org\"}", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:42Z INFO  user contact=5474614I", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:00:43Z DEBUG payload={\"v\":\"wjistwabqx@example.test\"}", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:44Z INFO  user contact=7711203BF", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:00:45Z ERROR parse error near 4461 1636 4526 4680", "expected": ["card number"]}
+{"line": "2026-10-14T09:00:46Z WARN  request failed, value=089 992 9643", "expected": ["phone number"]}
+{"line": "2026-10-14T09:00:47Z INFO  user contact=2559296IA", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:00:48Z DEBUG payload={\"v\":\"7282127V\"}", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:00:49Z INFO  notify uajdxik@example.test and 087 598 2848", "expected": ["email address", "phone number"]}
+{"line": "2026-10-14T09:00:50Z INFO  user contact=GB62 ZDZW 7998 3705 4665 89", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:00:51Z INFO  notify fbvxhkdyh@example.org and IE57CXDL67947140449034", "expected": ["email address", "IBAN"]}
+{"line": "2026-10-14T09:00:52Z DEBUG payload={\"v\":\"xqbhzyvcf@example.test\"}", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:53Z INFO  notify IE43 UFVO 5827 7529 9571 81 and 4750-2141-0435-4262", "expected": ["IBAN", "card number"]}
+{"line": "2026-10-14T09:00:54Z DEBUG payload={\"v\":\"+353 85 044 6490\"}", "expected": ["phone number"]}
+{"line": "2026-10-14T09:00:55Z INFO  notify 086 265 3954 and 4607 8677 2423 4407", "expected": ["phone number", "card number"]}
+{"line": "2026-10-14T09:00:56Z DEBUG payload={\"v\":\"IE61 RMCC 4731 0956 4894 90\"}", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:00:57Z ERROR parse error near frfcvjtou@example.test", "expected": ["email address"]}
+{"line": "2026-10-14T09:00:58Z INFO  user contact=IE17HTXJ11607905341339", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:00:59Z WARN  request failed, value=4700 4464 2531 6551", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:00Z INFO  notify 0321230NG and snvubwbax@example.org", "expected": ["PPSN", "email address"]}
+{"line": "2026-10-14T09:01:01Z INFO  sent to +446249194634 ok", "expected": ["phone number"]}
+{"line": "2026-10-14T09:01:02Z INFO  notify 5333315D and 087 396 1121", "expected": ["PPSN", "phone number"]}
+{"line": "2026-10-14T09:01:03Z INFO  notify mttlyoqqwq@example.test and 4446-7530-4032-6900", "expected": ["email address", "card number"]}
+{"line": "2026-10-14T09:01:04Z ERROR parse error near 5784863P", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:01:05Z INFO  user contact=8890607O", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:01:06Z DEBUG payload={\"v\":\"GB11KURB63353289610693\"}", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:01:07Z ERROR parse error near 4705 6317 9990 6500", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:08Z INFO  notify 4942 1081 7880 3718 and IE29 EVUV 1446 2427 4538 48", "expected": ["card number", "IBAN"]}
+{"line": "2026-10-14T09:01:09Z INFO  sent to 7754116IH ok", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:01:10Z INFO  user contact=+448827291492", "expected": ["phone number"]}
+{"line": "2026-10-14T09:01:11Z INFO  user contact=GB67 BNGZ 3098 6712 8617 40", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:01:12Z ERROR parse error near 4964-7212-6608-4562", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:13Z INFO  notify 4462-4609-0559-5343 and GB15ZGAU37677305817466", "expected": ["card number", "IBAN"]}
+{"line": "2026-10-14T09:01:14Z INFO  notify 2010959R and tejuw@example.org", "expected": ["PPSN", "email address"]}
+{"line": "2026-10-14T09:01:15Z INFO  sent to GB64TXKZ44958706853063 ok", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:01:16Z DEBUG payload={\"v\":\"4796467BG\"}", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:01:17Z INFO  user contact=4167-0073-3566-9376", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:18Z INFO  notify GB47 QGCT 4352 2492 9418 48 and 0683305J", "expected": ["IBAN", "PPSN"]}
+{"line": "2026-10-14T09:01:19Z DEBUG payload={\"v\":\"4512-1705-3856-0396\"}", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:20Z INFO  sent to 8096463R ok", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:01:21Z INFO  notify 4588 5319 2952 0191 and 1355191V", "expected": ["card number", "PPSN"]}
+{"line": "2026-10-14T09:01:22Z ERROR parse error near IE38 VABQ 5674 6462 9486 20", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:01:23Z INFO  sent to 2637789E ok", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:01:24Z DEBUG payload={\"v\":\"mggchj@example.org\"}", "expected": ["email address"]}
+{"line": "2026-10-14T09:01:25Z INFO  notify 4971 1948 4034 2503 and GB78PVRH01123400532345", "expected": ["card number", "IBAN"]}
+{"line": "2026-10-14T09:01:26Z INFO  user contact=085 373 9715", "expected": ["phone number"]}
+{"line": "2026-10-14T09:01:27Z INFO  user contact=sundxd@example.org", "expected": ["email address"]}
+{"line": "2026-10-14T09:01:28Z INFO  notify +443857283695 and IE28 PGRZ 5204 5773 8257 14", "expected": ["phone number", "IBAN"]}
+{"line": "2026-10-14T09:01:29Z INFO  sent to 4564-8775-5943-9451 ok", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:30Z ERROR parse error near GB79EGOF92227339721639", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:01:31Z DEBUG payload={\"v\":\"4090967282521726\"}", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:32Z WARN  request failed, value=+442134619916", "expected": ["phone number"]}
+{"line": "2026-10-14T09:01:33Z INFO  sent to 6722076H ok", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:01:34Z WARN  request failed, value=wexzkmyz@example.org", "expected": ["email address"]}
+{"line": "2026-10-14T09:01:35Z DEBUG payload={\"v\":\"pyilqnxdn@example.org\"}", "expected": ["email address"]}
+{"line": "2026-10-14T09:01:36Z INFO  notify tqsaih@example.test and IE65 PQKL 3409 4903 4235 52", "expected": ["email address", "IBAN"]}
+{"line": "2026-10-14T09:01:37Z INFO  notify eryxurq@example.org and 3294493W", "expected": ["email address", "PPSN"]}
+{"line": "2026-10-14T09:01:38Z WARN  request failed, value=085 553 9189", "expected": ["phone number"]}
+{"line": "2026-10-14T09:01:39Z INFO  notify 087 846 7484 and 4014-5563-0202-0471", "expected": ["phone number", "card number"]}
+{"line": "2026-10-14T09:01:40Z INFO  sent to hedqs@example.org ok", "expected": ["email address"]}
+{"line": "2026-10-14T09:01:41Z INFO  sent to 8936656LI ok", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:01:42Z WARN  request failed, value=4879-4743-2411-8709", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:43Z WARN  request failed, value=bplrwg@example.test", "expected": ["email address"]}
+{"line": "2026-10-14T09:01:44Z ERROR parse error near 4280528735633169", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:45Z INFO  user contact=IE21QLMZ96734137483789", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:01:46Z ERROR parse error near 089 226 9807", "expected": ["phone number"]}
+{"line": "2026-10-14T09:01:47Z INFO  notify IE56WETS54839099194262 and 5735325P", "expected": ["IBAN", "PPSN"]}
+{"line": "2026-10-14T09:01:48Z DEBUG payload={\"v\":\"9345212S\"}", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:01:49Z WARN  request failed, value=4338-4662-8964-1712", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:50Z ERROR parse error near 4995808001601249", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:51Z INFO  sent to +444050529086 ok", "expected": ["phone number"]}
+{"line": "2026-10-14T09:01:52Z INFO  user contact=4952623709426281", "expected": ["card number"]}
+{"line": "2026-10-14T09:01:53Z INFO  user contact=jobaemlu@example.test", "expected": ["email address"]}
+{"line": "2026-10-14T09:01:54Z WARN  request failed, value=xrohyr@example.org", "expected": ["email address"]}
+{"line": "2026-10-14T09:01:55Z INFO  user contact=087 021 8892", "expected": ["phone number"]}
+{"line": "2026-10-14T09:01:56Z INFO  sent to +448371975904 ok", "expected": ["phone number"]}
+{"line": "2026-10-14T09:01:57Z ERROR parse error near GB04 ZIQU 4253 1537 2202 37", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:01:58Z INFO  user contact=IE08AIJH11454030533230", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:01:59Z ERROR parse error near 4561-2211-2273-9746", "expected": ["card number"]}
+{"line": "2026-10-14T09:02:00Z INFO  notify akvjwll@example.test and 4366 4133 7697 3272", "expected": ["email address", "card number"]}
+{"line": "2026-10-14T09:02:01Z INFO  notify +449170792780 and 4876-1321-4345-5594", "expected": ["phone number", "card number"]}
+{"line": "2026-10-14T09:02:02Z DEBUG payload={\"v\":\"xnqctrjqbz@example.org\"}", "expected": ["email address"]}
+{"line": "2026-10-14T09:02:03Z INFO  sent to IE14 AGNN 5543 7553 0149 19 ok", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:02:04Z WARN  request failed, value=5307400WF", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:02:05Z WARN  request failed, value=4553447616378440", "expected": ["card number"]}
+{"line": "2026-10-14T09:02:06Z DEBUG payload={\"v\":\"4780-1813-4285-6560\"}", "expected": ["card number"]}
+{"line": "2026-10-14T09:02:07Z INFO  notify IE05VSHP01131654131666 and 5413403A", "expected": ["IBAN", "PPSN"]}
+{"line": "2026-10-14T09:02:08Z INFO  notify 4474157HE and 087 147 7511", "expected": ["PPSN", "phone number"]}
+{"line": "2026-10-14T09:02:09Z ERROR parse error near IE22TLFL76280280818276", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:02:10Z WARN  request failed, value=6788555F", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:02:11Z ERROR parse error near GB15YNXV17402671132831", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:02:12Z INFO  sent to 0774768O ok", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:02:13Z INFO  user contact=zqswukzvmi@example.org", "expected": ["email address"]}
+{"line": "2026-10-14T09:02:14Z WARN  request failed, value=+448787068091", "expected": ["phone number"]}
+{"line": "2026-10-14T09:02:15Z WARN  request failed, value=9983880LF", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:02:16Z INFO  user contact=4336 2670 4126 0680", "expected": ["card number"]}
+{"line": "2026-10-14T09:02:17Z INFO  user contact=2081323E", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:02:18Z ERROR parse error near aqlsqdkrw@example.test", "expected": ["email address"]}
+{"line": "2026-10-14T09:02:19Z INFO  user contact=4539 3120 5667 6860", "expected": ["card number"]}
+{"line": "2026-10-14T09:02:20Z INFO  notify +443677232608 and 4033384514905026", "expected": ["phone number", "card number"]}
+{"line": "2026-10-14T09:02:21Z ERROR parse error near 2774465EE", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:02:22Z INFO  notify 4536 8606 7800 4468 and +447717719577", "expected": ["card number", "phone number"]}
+{"line": "2026-10-14T09:02:23Z INFO  notify 4718345296450814 and GB79 UXRC 7080 0391 9087 62", "expected": ["card number", "IBAN"]}
+{"line": "2026-10-14T09:02:24Z DEBUG payload={\"v\":\"IE55 ODRB 2504 8873 0432 77\"}", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:02:25Z WARN  request failed, value=7571905U", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:02:26Z INFO  user contact=GB98 WSCN 2409 7098 5739 00", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:02:27Z ERROR parse error near brdhwykvi@example.org", "expected": ["email address"]}
+{"line": "2026-10-14T09:02:28Z WARN  request failed, value=upeemk@example.org", "expected": ["email address"]}
+{"line": "2026-10-14T09:02:29Z INFO  sent to 4321-1686-0830-2351 ok", "expected": ["card number"]}
+{"line": "2026-10-14T09:02:30Z INFO  iban_ref=IE75AIBK29044724810891", "expected": []}
+{"line": "2026-10-14T09:02:31Z INFO  sku=3665280A", "expected": []}
+{"line": "2026-10-14T09:02:32Z INFO  card_fp=4941983041583065", "expected": []}
+{"line": "2026-10-14T09:02:33Z INFO  request_id=56aa6e58-63ea-4361-85d6-44fa870e8340", "expected": []}
+{"line": "2026-10-14T09:02:34Z INFO  retry=4 batch=24630", "expected": []}
+{"line": "2026-10-14T09:02:35Z INFO  iban_ref=IE31AIBK28062245021185", "expected": []}
+{"line": "2026-10-14T09:02:36Z INFO  GET /health 200 12ms", "expected": []}
+{"line": "2026-10-14T09:02:37Z INFO  sku=7354953B", "expected": []}
+{"line": "2026-10-14T09:02:38Z INFO  order_id=1940684569", "expected": []}
+{"line": "2026-10-14T09:02:39Z INFO  iban_ref=IE95AIBK09579916289092", "expected": []}
+{"line": "2026-10-14T09:02:40Z INFO  sku=3881586E", "expected": []}
+{"line": "2026-10-14T09:02:41Z INFO  order_id=5073211715", "expected": []}
+{"line": "2026-10-14T09:02:42Z INFO  batch=0510060436", "expected": []}
+{"line": "2026-10-14T09:02:43Z INFO  request_id=0adad358-2d15-492a-9d61-5b064fb461d3", "expected": []}
+{"line": "2026-10-14T09:02:44Z INFO  retry=3 batch=42513", "expected": []}
+{"line": "2026-10-14T09:02:45Z INFO  order_id=1094115188", "expected": []}
+{"line": "2026-10-14T09:02:46Z INFO  request_id=0ebc190c-0595-4bbf-b551-ac5f4191549a", "expected": []}
+{"line": "2026-10-14T09:02:47Z INFO  ts=2026-10-28T16:55:23", "expected": []}
+{"line": "2026-10-14T09:02:48Z INFO  ts=2026-10-12T22:42:25", "expected": []}
+{"line": "2026-10-14T09:02:49Z INFO  ts=2026-10-11T09:20:08", "expected": []}
+{"line": "2026-10-14T09:02:50Z INFO  request_id=10407bb7-b786-41c2-991b-51597f67b2fb", "expected": []}
+{"line": "2026-10-14T09:02:51Z INFO  sku=7961969C", "expected": []}
+{"line": "2026-10-14T09:02:52Z INFO  card_fp=4683721075875136", "expected": []}
+{"line": "2026-10-14T09:02:53Z INFO  card_fp=4614303369867303", "expected": []}
+{"line": "2026-10-14T09:02:54Z INFO  card_fp=4202103798435146", "expected": []}
+{"line": "2026-10-14T09:02:55Z INFO  card_fp=4108239013758055", "expected": []}
+{"line": "2026-10-14T09:02:56Z INFO  batch=0746640394", "expected": []}
+{"line": "2026-10-14T09:02:57Z INFO  job finished in 4.2s", "expected": []}
+{"line": "2026-10-14T09:02:58Z INFO  cache miss for key settings_v2", "expected": []}
+{"line": "2026-10-14T09:02:59Z INFO  iban_ref=IE25AIBK20354000864026", "expected": []}
+{"line": "2026-10-14T09:03:00Z INFO  ts=2026-10-16T03:19:50", "expected": []}
+{"line": "2026-10-14T09:03:01Z INFO  sku=4826333B", "expected": []}
+{"line": "2026-10-14T09:03:02Z INFO  batch=0042851606", "expected": []}
+{"line": "2026-10-14T09:03:03Z INFO  cache miss for key settings_v2", "expected": []}
+{"line": "2026-10-14T09:03:04Z INFO  card_fp=4588458484097590", "expected": []}
+{"line": "2026-10-14T09:03:05Z INFO  request_id=3085a199-49b4-4e51-84d7-4cfffb3be357", "expected": []}
+{"line": "2026-10-14T09:03:06Z INFO  ts=2026-10-25T14:11:10", "expected": []}
+{"line": "2026-10-14T09:03:07Z INFO  card_fp=4814949682990335", "expected": []}
+{"line": "2026-10-14T09:03:08Z INFO  retry=5 batch=68216", "expected": []}
+{"line": "2026-10-14T09:03:09Z INFO  batch=0907571155", "expected": []}
+{"line": "2026-10-14T09:03:10Z INFO  ts=2026-10-04T18:49:06", "expected": []}
+{"line": "2026-10-14T09:03:11Z INFO  iban_ref=IE83AIBK88826541466438", "expected": []}
+{"line": "2026-10-14T09:03:12Z INFO  card_fp=4042337388692377", "expected": []}
+{"line": "2026-10-14T09:03:13Z INFO  retry=5 batch=95625", "expected": []}
+{"line": "2026-10-14T09:03:14Z INFO  sku=6049445C", "expected": []}
+{"line": "2026-10-14T09:03:15Z INFO  order_id=1682781467", "expected": []}
+{"line": "2026-10-14T09:03:16Z INFO  iban_ref=IE80AIBK74755182000313", "expected": []}
+{"line": "2026-10-14T09:03:17Z INFO  batch=0561035185", "expected": []}
+{"line": "2026-10-14T09:03:18Z INFO  retry=6 batch=21532", "expected": []}
+{"line": "2026-10-14T09:03:19Z INFO  iban_ref=IE43AIBK76231598662407", "expected": []}
+{"line": "2026-10-14T09:03:20Z INFO  order_id=4439688162", "expected": []}
+{"line": "2026-10-14T09:03:21Z INFO  card_fp=4283964332468311", "expected": []}
+{"line": "2026-10-14T09:03:22Z INFO  job finished in 4.2s", "expected": []}
+{"line": "2026-10-14T09:03:23Z INFO  retry=9 batch=84948", "expected": []}
+{"line": "2026-10-14T09:03:24Z INFO  iban_ref=IE69AIBK21096827821788", "expected": []}
+{"line": "2026-10-14T09:03:25Z INFO  sku=6676924D", "expected": []}
+{"line": "2026-10-14T09:03:26Z INFO  order_id=4504756453", "expected": []}
+{"line": "2026-10-14T09:03:27Z INFO  retry=4 batch=90057", "expected": []}
+{"line": "2026-10-14T09:03:28Z INFO  job finished in 4.2s", "expected": []}
+{"line": "2026-10-14T09:03:29Z INFO  batch=0965888101", "expected": []}
+{"line": "2026-10-14T09:03:30Z INFO  iban_ref=IE70AIBK75998622848354", "expected": []}
+{"line": "2026-10-14T09:03:31Z INFO  ts=2026-10-16T01:55:40", "expected": []}
+{"line": "2026-10-14T09:03:32Z INFO  ts=2026-10-16T06:32:07", "expected": []}
+{"line": "2026-10-14T09:03:33Z INFO  sku=5481939D", "expected": []}
+{"line": "2026-10-14T09:03:34Z INFO  request_id=39f98ac1-3a72-499e-a08e-99037ce51301", "expected": []}
+{"line": "2026-10-14T09:03:35Z INFO  retry=3 batch=10692", "expected": []}
+{"line": "2026-10-14T09:03:36Z INFO  batch=0393042751", "expected": []}
+{"line": "2026-10-14T09:03:37Z INFO  ts=2026-10-05T19:27:40", "expected": []}
+{"line": "2026-10-14T09:03:38Z INFO  sku=4930130C", "expected": []}
+{"line": "2026-10-14T09:03:39Z INFO  GET /health 200 12ms", "expected": []}
+{"line": "2026-10-14T09:03:40Z INFO  order_id=3906611156", "expected": []}
+{"line": "2026-10-14T09:03:41Z INFO  card_fp=4283153009455468", "expected": []}
+{"line": "2026-10-14T09:03:42Z INFO  request_id=6ab40c89-11e0-4103-829c-ed4762be315a", "expected": []}
+{"line": "2026-10-14T09:03:43Z INFO  retry=8 batch=47187", "expected": []}
+{"line": "2026-10-14T09:03:44Z INFO  card_fp=4198029205177367", "expected": []}
+{"line": "2026-10-14T09:03:45Z INFO  job finished in 4.2s", "expected": []}
+{"line": "2026-10-14T09:03:46Z INFO  order_id=9795922823", "expected": []}
+{"line": "2026-10-14T09:03:47Z INFO  ts=2026-10-21T00:03:44", "expected": []}
+{"line": "2026-10-14T09:03:48Z INFO  ts=2026-10-14T14:24:07", "expected": []}
+{"line": "2026-10-14T09:03:49Z INFO  cache miss for key settings_v2", "expected": []}
+{"line": "2026-10-14T09:03:50Z INFO  batch=0726041567", "expected": []}
+{"line": "2026-10-14T09:03:51Z INFO  sku=8171111B", "expected": []}
+{"line": "2026-10-14T09:03:52Z INFO  iban_ref=IE44AIBK89341596420015", "expected": []}
+{"line": "2026-10-14T09:03:53Z INFO  batch=0105712292", "expected": []}
+{"line": "2026-10-14T09:03:54Z INFO  batch=0088836418", "expected": []}
+{"line": "2026-10-14T09:03:55Z INFO  order_id=3779696951", "expected": []}
+{"line": "2026-10-14T09:03:56Z INFO  retry=6 batch=57472", "expected": []}
+{"line": "2026-10-14T09:03:57Z INFO  iban_ref=IE74AIBK80814923876716", "expected": []}
+{"line": "2026-10-14T09:03:58Z INFO  order_id=4626454979", "expected": []}
+{"line": "2026-10-14T09:03:59Z INFO  ts=2026-10-14T18:30:51", "expected": []}
+{"line": "2026-10-14T09:04:00Z INFO  batch=0133068919", "expected": []}
+{"line": "2026-10-14T09:04:01Z INFO  ts=2026-10-14T14:02:04", "expected": []}
+{"line": "2026-10-14T09:04:02Z INFO  iban_ref=IE37AIBK60857729856647", "expected": []}
+{"line": "2026-10-14T09:04:03Z INFO  batch=0363859061", "expected": []}
+{"line": "2026-10-14T09:04:04Z INFO  batch=0880429026", "expected": []}
+{"line": "2026-10-14T09:04:05Z INFO  sku=8045043D", "expected": []}
+{"line": "2026-10-14T09:04:06Z INFO  order_id=5735817014", "expected": []}
+{"line": "2026-10-14T09:04:07Z INFO  sku=0587968E", "expected": []}
+{"line": "2026-10-14T09:04:08Z INFO  card_fp=4643888375734062", "expected": []}
+{"line": "2026-10-14T09:04:09Z INFO  order_id=6761084958", "expected": []}
+{"line": "2026-10-14T09:04:10Z INFO  iban_ref=IE95AIBK53184874211828", "expected": []}
+{"line": "2026-10-14T09:04:11Z INFO  card_fp=4714985746914508", "expected": []}
+{"line": "2026-10-14T09:04:12Z INFO  sku=8459157B", "expected": []}
+{"line": "2026-10-14T09:04:13Z INFO  ts=2026-10-13T21:38:38", "expected": []}
+{"line": "2026-10-14T09:04:14Z INFO  retry=9 batch=50518", "expected": []}
+{"line": "2026-10-14T09:04:15Z INFO  sku=9972994B", "expected": []}
+{"line": "2026-10-14T09:04:16Z INFO  request_id=b79062a5-5e00-4a1f-a6ce-8c48f1eefd88", "expected": []}
+{"line": "2026-10-14T09:04:17Z INFO  sku=6858537E", "expected": []}
+{"line": "2026-10-14T09:04:18Z INFO  card_fp=4262369695631346", "expected": []}
+{"line": "2026-10-14T09:04:19Z INFO  sku=6858401D", "expected": []}
+{"line": "2026-10-14T09:04:20Z INFO  request_id=f40837ae-3a9d-4836-a0da-0cea5c30532a", "expected": []}
+{"line": "2026-10-14T09:04:21Z INFO  order_id=3878719791", "expected": []}
+{"line": "2026-10-14T09:04:22Z INFO  card_fp=4279610725346657", "expected": []}
+{"line": "2026-10-14T09:04:23Z INFO  card_fp=4752772693993500", "expected": []}
+{"line": "2026-10-14T09:04:24Z INFO  iban_ref=IE79AIBK28842673571714", "expected": []}
+{"line": "2026-10-14T09:04:25Z INFO  ts=2026-10-06T05:47:32", "expected": []}
+{"line": "2026-10-14T09:04:26Z INFO  ts=2026-10-13T01:27:17", "expected": []}
+{"line": "2026-10-14T09:04:27Z INFO  cache miss for key settings_v2", "expected": []}
+{"line": "2026-10-14T09:04:28Z INFO  request_id=9d1cd725-f251-45fe-afcd-3065851298ac", "expected": []}
+{"line": "2026-10-14T09:04:29Z INFO  request_id=b5968cd1-2cd0-481a-8fe7-828bba11e72d", "expected": []}
+{"line": "2026-10-14T09:04:30Z INFO  card=4111.1111.1111.1111", "expected": ["card number"]}
+{"line": "2026-10-14T09:04:31Z INFO  iban=gb82west12345698765432", "expected": ["IBAN"]}
+{"line": "2026-10-14T09:04:32Z INFO  contact jane dot doe at example dot test", "expected": ["email address"]}
+{"line": "2026-10-14T09:04:33Z INFO  ppsn=1234567-T", "expected": ["PPSN"]}
+{"line": "2026-10-14T09:04:34Z INFO  ppsn=1234567 T", "expected": ["PPSN"]}
